@@ -2,14 +2,14 @@
   "by_name": {
     "$pagination-color": {
       "name": "$pagination-color",
-      "value": "$grey-darker",
+      "value": "$text-strong",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 21%)"
     },
     "$pagination-border-color": {
       "name": "$pagination-border-color",
-      "value": "$grey-lighter",
+      "value": "$border",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 86%)"
@@ -17,6 +17,31 @@
     "$pagination-margin": {
       "name": "$pagination-margin",
       "value": "-0.25rem",
+      "type": "size"
+    },
+    "$pagination-min-width": {
+      "name": "$pagination-min-width",
+      "value": "$control-height",
+      "type": "variable"
+    },
+    "$pagination-item-font-size": {
+      "name": "$pagination-item-font-size",
+      "value": "1em",
+      "type": "size"
+    },
+    "$pagination-item-margin": {
+      "name": "$pagination-item-margin",
+      "value": "0.25rem",
+      "type": "size"
+    },
+    "$pagination-item-padding-left": {
+      "name": "$pagination-item-padding-left",
+      "value": "0.5em",
+      "type": "size"
+    },
+    "$pagination-item-padding-right": {
+      "name": "$pagination-item-padding-right",
+      "value": "0.5em",
       "type": "size"
     },
     "$pagination-hover-color": {
@@ -63,21 +88,21 @@
     },
     "$pagination-disabled-color": {
       "name": "$pagination-disabled-color",
-      "value": "$grey",
+      "value": "$text-light",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 48%)"
     },
     "$pagination-disabled-background-color": {
       "name": "$pagination-disabled-background-color",
-      "value": "$grey-lighter",
+      "value": "$border",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 86%)"
     },
     "$pagination-disabled-border-color": {
       "name": "$pagination-disabled-border-color",
-      "value": "$grey-lighter",
+      "value": "$border",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 86%)"
@@ -115,6 +140,11 @@
     "$pagination-color",
     "$pagination-border-color",
     "$pagination-margin",
+    "$pagination-min-width",
+    "$pagination-item-font-size",
+    "$pagination-item-margin",
+    "$pagination-item-padding-left",
+    "$pagination-item-padding-right",
     "$pagination-hover-color",
     "$pagination-hover-border-color",
     "$pagination-focus-color",

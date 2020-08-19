@@ -1,5 +1,13 @@
 // Index common
 
++mobile
+  .bd-index-buttons
+    margin-top: 3rem
+
++tablet
+  .bd-index-buttons
+    margin-top: 6rem
+
 .bd-index-header
   text-align: center
   a,
@@ -18,7 +26,7 @@
     strong
       color: $primary
   .subtitle
-    color: $grey-light !important
+    color: $border-hover !important
     strong
       color: currentColor
   &:not(:last-child)
@@ -35,8 +43,13 @@
 
 // Customize
 
+.bd-index-custom-tweet
+  .bd-tw
+    margin-left: auto
+    margin-right: auto
+
 .bd-index-custom-title
-  color: $grey-light
+  color: $border-hover
 
 .bd-index-custom-example
   padding: 1rem
@@ -72,28 +85,28 @@
   .button
     &.is-primary
       background-color: $mauve
-      color: $white
+      color: $scheme-main
       &:hover
         background-color: darken($mauve, 2.5%)
       &:active
         background-color: darken($mauve, 5%)
     &.is-link
       background-color: $pink
-      color: $white
+      color: $scheme-main
       &:hover
         background-color: darken($pink, 2.5%)
       &:active
         background-color: darken($pink, 5%)
   +selection
     background-color: $pink
-    color: $white
+    color: $scheme-main
 
 // Fullscreen
 
 .bd-index-fullscreen
   .tabs
     a
-      color: $grey-light !important
+      color: $border-hover !important
 
 // Columns
 
@@ -144,6 +157,7 @@
   max-width: $intro-width
 
 .bd-focus-item
+  @extend %link-before-background
   border-radius: $radius-large
   padding-top: 1.25rem
   position: relative
@@ -156,26 +170,10 @@
     transition-duration: $speed * 2
     transition-property: color
   .subtitle
-    color: $grey-light
+    color: $border-hover
     position: relative
     strong
       color: currentColor
-  &::before
-    +overlay
-    background-color: $white-bis
-    border-radius: $radius-large
-    content: ""
-    display: block
-    opacity: 0
-    pointer-events: none
-    transform: scale(1.1)
-    transform-origin: center
-    transition-duration: $speed * 2
-    transition-property: opacity, transform
-  &:hover
-    &::before
-      opacity: 1
-      transform: scale(1)
     .subtitle
       color: $text
   &:nth-child(1):hover
@@ -189,7 +187,7 @@
       color: $link
   &:nth-child(4):hover
     .title
-      color: $black
+      color: $scheme-invert
 
 .bd-focus-icon
   position: relative
@@ -249,7 +247,7 @@
     font-weight: $weight-semibold
 
 .intro-ghbtns
-  margin-bottom: 26px
+  margin-bottom: 16px
   min-height: 30px
   iframe,
   a,
@@ -287,7 +285,7 @@
       color: $black-ter
     &.is-success,
     &.is-error
-      color: $white
+      color: $scheme-main
       pointer-events: none
       text-decoration: none
     &.is-success
@@ -296,10 +294,10 @@
       background-color: $red
   \::-moz-selection
     background: $yellow
-    color: $black-ter
+    color: $scheme-invert-ter
   \::selection
     background: $yellow
-    color: $black-ter
+    color: $scheme-invert-ter
 
 .intro-buttons
   margin-top: 1.5rem
@@ -308,7 +306,7 @@
     padding-right: 1.375em
 
 .intro-video
-  background-color: $white
+  background-color: $scheme-main
   margin-left: auto
   margin-right: auto
   max-width: 640px
@@ -393,6 +391,9 @@
     &:hover
       opacity: 1
 
+.intro-carbon
+  margin-top: 1.5rem
+
 +mobile
   .intro-buttons
     .button
@@ -428,4 +429,4 @@
   .intro-title
     margin-top: -11px
     &:not(:last-child)
-      margin-bottom: 20px
+      margin-bottom: 10px

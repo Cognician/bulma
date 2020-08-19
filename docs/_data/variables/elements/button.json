@@ -2,21 +2,26 @@
   "by_name": {
     "$button-color": {
       "name": "$button-color",
-      "value": "$grey-darker",
+      "value": "$text-strong",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 21%)"
     },
     "$button-background-color": {
       "name": "$button-background-color",
-      "value": "$white",
+      "value": "$scheme-main",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 100%)"
     },
+    "$button-family": {
+      "name": "$button-family",
+      "value": "false",
+      "type": "boolean"
+    },
     "$button-border-color": {
       "name": "$button-border-color",
-      "value": "$grey-lighter",
+      "value": "$border",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 86%)"
@@ -28,12 +33,12 @@
     },
     "$button-padding-vertical": {
       "name": "$button-padding-vertical",
-      "value": "calc(0.375em - #{$button-border-width})",
+      "value": "calc(0.5em - #{$button-border-width})",
       "type": "size"
     },
     "$button-padding-horizontal": {
       "name": "$button-padding-horizontal",
-      "value": "0.75em",
+      "value": "1em",
       "type": "size"
     },
     "$button-hover-color": {
@@ -71,8 +76,8 @@
     },
     "$button-focus-box-shadow-color": {
       "name": "$button-focus-box-shadow-color",
-      "value": "rgba($link, 0.25)",
-      "type": "color"
+      "value": "bulmaRgba($link, 0.25)",
+      "type": "compound"
     },
     "$button-active-color": {
       "name": "$button-active-color",
@@ -95,6 +100,11 @@
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 29%)"
     },
+    "$button-text-decoration": {
+      "name": "$button-text-decoration",
+      "value": "underline",
+      "type": "string"
+    },
     "$button-text-hover-background-color": {
       "name": "$button-text-hover-background-color",
       "value": "$background",
@@ -111,14 +121,14 @@
     },
     "$button-disabled-background-color": {
       "name": "$button-disabled-background-color",
-      "value": "$white",
+      "value": "$scheme-main",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 100%)"
     },
     "$button-disabled-border-color": {
       "name": "$button-disabled-border-color",
-      "value": "$grey-lighter",
+      "value": "$border",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 86%)"
@@ -135,21 +145,21 @@
     },
     "$button-static-color": {
       "name": "$button-static-color",
-      "value": "$grey",
+      "value": "$text-light",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 48%)"
     },
     "$button-static-background-color": {
       "name": "$button-static-background-color",
-      "value": "$white-ter",
+      "value": "$scheme-main-ter",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 96%)"
     },
     "$button-static-border-color": {
       "name": "$button-static-border-color",
-      "value": "$grey-lighter",
+      "value": "$border",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 86%)"
@@ -158,6 +168,7 @@
   "list": [
     "$button-color",
     "$button-background-color",
+    "$button-family",
     "$button-border-color",
     "$button-border-width",
     "$button-padding-vertical",
@@ -171,6 +182,7 @@
     "$button-active-color",
     "$button-active-border-color",
     "$button-text-color",
+    "$button-text-decoration",
     "$button-text-hover-background-color",
     "$button-text-hover-color",
     "$button-disabled-background-color",

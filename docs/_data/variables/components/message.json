@@ -80,7 +80,7 @@
     },
     "$message-body-pre-background-color": {
       "name": "$message-body-pre-background-color",
-      "value": "$white",
+      "value": "$scheme-main",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 100%)"
@@ -94,6 +94,13 @@
       "name": "$message-header-body-border-width",
       "value": "0",
       "type": "string"
+    },
+    "$message-colors": {
+      "name": "$message-colors",
+      "value": "$colors",
+      "type": "variable",
+      "computed_type": "function",
+      "computed_value": "mergeColorMaps((\"white\": ($white, $black), \"black\": ($black, $white), \"light\": ($light, $light-invert), \"dark\": ($dark, $dark-invert), \"primary\": ($primary, $primary-invert, $primary-light, $primary-dark), \"link\": ($link, $link-invert, $link-light, $link-dark), \"info\": ($info, $info-invert, $info-light, $info-dark), \"success\": ($success, $success-invert, $success-light, $success-dark), \"warning\": ($warning, $warning-invert, $warning-light, $warning-dark), \"danger\": ($danger, $danger-invert, $danger-light, $danger-dark)), $custom-colors)"
     }
   },
   "list": [
@@ -111,7 +118,8 @@
     "$message-body-radius",
     "$message-body-pre-background-color",
     "$message-body-pre-code-background-color",
-    "$message-header-body-border-width"
+    "$message-header-body-border-width",
+    "$message-colors"
   ],
   "file_path": "components/message.sass"
 }

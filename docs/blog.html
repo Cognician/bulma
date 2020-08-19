@@ -38,11 +38,11 @@ breadcrumb:
         <div class="bd-content">
           <div class="bd-links">
             {% for post in site.posts %}
-              {% assign date = post.date | date_to_string %}
+              {% assign date = post.date | date: "%B %-d" %}
               {% assign more = post.introduction | markdownify | strip_html %}
               {%
                 include elements/link.html
-                url=post.url
+                path=post.url
                 color=post.color
                 icon_brand=post.icon_brand
                 icon_regular=post.icon_regular

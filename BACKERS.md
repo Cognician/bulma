@@ -1,155 +1,460 @@
 # Backers via Patreon
 
 <div class="bd-content">
-  <h2 class="title is-5">
-    Documentation sponsors via Patreon ($500+)
-  </h2>
-  <div class="content">
-    <ul>
-      <li>
-        Tipe
-        <a href="https://twitter.com/tipeio" target="_blank" rel="nofollow">
-        @tipeio
-        </a>
-      </li>
-    </ul>
-  </div>
-  <h2 class="title is-5">
-    Homepage sponsors via Patreon ($100+)
-  </h2>
-  <div class="content">
-    <ul>
-      <li>
-        Tooltwist
-      </li>
-      <li>
-        KeyCDN
-      </li>
-      <li>
-        DontPayFull
-      </li>
-      <li>
-        Aaron
-        <a href="https://twitter.com/aequasi" target="_blank" rel="nofollow">
-        @aequasi
-        </a>
-      </li>
-    </ul>
-  </div>
-  <h2 class="title is-5">
-    Generous backers via Patreon ($30+)
-  </h2>
-  <div class="content">
-    <ul>
-      <li>
-        Stuart Stanfield
-      </li>
-      <li>
-        Nazar
-        <a href="https://twitter.com/nazar_io" target="_blank" rel="nofollow">
-        @nazar_io
-        </a>
-      </li>
-      <li>
-        Jon Yongfook
-      </li>
-      <li>
-        Garry Newman
-        <a href="https://twitter.com/garrynewman" target="_blank" rel="nofollow">
+          
+
+<h2 class="title is-5">
+  Generous backers ($30+)
+</h2>
+
+<table class="table is-bordered">
+  
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Twitter</th>
+    <th>Website</th>
+  </tr>
+</thead>
+
+  <tbody>
+    
+      <tr>
+  <td>Roman Chvanikoff</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Garry Newman</td>
+
+  <td>
+    
+      <a href="https://twitter.com/garrynewman" target="_blank" rel="nofollow">
         @garrynewman
-        </a>
-      </li>
-      <li>
-        Adrian Ocneanu
-      </li>
-    </ul>
-  </div>
-  <h2 class="title is-5">
-    Backers via Patreon ($10+)
-  </h2>
-  <div class="content">
-    <ul>
-      <li>
-        Will Turnage
-      </li>
-      <li>
-        Wikiki
-      </li>
-      <li>
-        Takayuki Yamaguchi
-        <a href="https://twitter.com/takyam" target="_blank" rel="nofollow">
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Bjørn Nese</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Adrian Ocneanu</td>
+
+  <td>
+    
+      <a href="https://twitter.com/aocneanu" target="_blank" rel="nofollow">
+        @aocneanu
+      </a>
+    
+  </td>
+
+  <td>
+    
+      <a href="https://www.earthlink.ro/" target="_blank" rel="nofollow">
+        Earthlink
+      </a>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Aaron</td>
+
+  <td>
+    
+      <a href="https://twitter.com/aequasi" target="_blank" rel="nofollow">
+        @aequasi
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+    
+      <tr>
+  <td>wingerdkm1</td>
+  <td colspan="2"><a href="https://github.com/wingerdkm1" target="_blank" rel="nofollow">GitHub</a></td>
+</tr>
+
+    
+  </tbody>
+</table>
+
+<h2 class="title is-5">
+  Documentation sponsors ($500+)
+</h2>
+
+<table class="table is-bordered">
+  
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Twitter</th>
+    <th>Website</th>
+  </tr>
+</thead>
+
+  <tbody>
+    
+      <tr>
+  <td>Tipe</td>
+
+  <td>
+    
+      <a href="https://twitter.com/tipeio" target="_blank" rel="nofollow">
+        @tipeio
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+  </tbody>
+</table>
+
+<h2 class="title is-5">
+  Homepage sponsors ($100+)
+</h2>
+
+<table class="table is-bordered">
+  
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Twitter</th>
+    <th>Website</th>
+  </tr>
+</thead>
+
+  <tbody>
+    
+      <tr>
+  <td>Yiannakis Ttafounas</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Tooltwist</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Sparheld International GmbH</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Robert Bolder</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Phil Alves</td>
+
+  <td>
+    
+      <a href="https://twitter.com/philalves01" target="_blank" rel="nofollow">
+        @philalves01
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Iaroslav Baklan</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>DontPayFull</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+    
+      <tr>
+  <td>patrick136</td>
+  <td colspan="2"><a href="https://github.com/patrick136" target="_blank" rel="nofollow">GitHub</a></td>
+</tr>
+
+    
+      <tr>
+  <td>airtract</td>
+  <td colspan="2"><a href="https://github.com/airtract" target="_blank" rel="nofollow">GitHub</a></td>
+</tr>
+
+    
+  </tbody>
+</table>
+
+<h2 class="title is-5">
+  Bulma backers ($10+)
+</h2>
+
+<table class="table is-bordered">
+  
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Twitter</th>
+    <th>Website</th>
+  </tr>
+</thead>
+
+  <tbody>
+    
+      <tr>
+  <td>Tyler Weeres</td>
+
+  <td>
+    
+      <a href="https://twitter.com/tweeres04" target="_blank" rel="nofollow">
+        @tweeres04
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Takayuki Yamaguchi</td>
+
+  <td>
+    
+      <a href="https://twitter.com/takyam" target="_blank" rel="nofollow">
         @takyam
-        </a>
-      </li>
-      <li>
-        Stanley Eosakul
-      </li>
-      <li>
-        Rob Mellett
-      </li>
-      <li>
-        Peter Ryszkiewicz
-      </li>
-      <li>
-        Patrick Cool
-      </li>
-      <li>
-        MrG0lden
-        <a href="https://twitter.com/mrg0lden" target="_blank" rel="nofollow">
-        @mrg0lden
-        </a>
-      </li>
-      <li>
-        Michael Schinis
-      </li>
-      <li>
-        Marcel Schiering
-      </li>
-      <li>
-        Luis Guillermo Moreno
-      </li>
-      <li>
-        Leo Zeba
-        <a href="https://twitter.com/leozeba" target="_blank" rel="nofollow">
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Stuart Stanfield</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Maurice Perry</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Leo Zeba</td>
+
+  <td>
+    
+      <a href="https://twitter.com/leozeba" target="_blank" rel="nofollow">
         @leozeba
-        </a>
-      </li>
-      <li>
-        Kyu
-      </li>
-      <li>
-        Jordan Nemrow
-      </li>
-      <li>
-        Jason Seminara
-      </li>
-      <li>
-        Franz Geffke
-        <a href="https://twitter.com/f_anzs" target="_blank" rel="nofollow">
-        @f_anzs
-        </a>
-      </li>
-      <li>
-        Dmitry Malyshev
-      </li>
-      <li>
-        Daniel Zavala
-        <a href="https://twitter.com/Siedrix" target="_blank" rel="nofollow">
-        @Siedrix
-        </a>
-      </li>
-      <li>
-        Corentin Hatte
-        <a href="https://twitter.com/viki53" target="_blank" rel="nofollow">
-        @viki53
-        </a>
-      </li>
-      <li>
-        Charles Treece
-        <a href="https://twitter.com/charlestreece" target="_blank" rel="nofollow">
-        @charlestreece
-        </a>
-      </li>
-    </ul>
-  </div>
-</div>
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Jordan Nemrow</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Jason Seminara</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Florian Breisch</td>
+
+  <td>
+    
+      <a href="https://twitter.com/FlorianBreisch" target="_blank" rel="nofollow">
+        @FlorianBreisch
+      </a>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>dvkt</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+      <tr>
+  <td>Dodzidenu Dzakuma</td>
+
+  <td>
+    
+  </td>
+
+  <td>
+    
+  </td>
+</tr>
+
+    
+    
+      <tr>
+  <td>Gomah</td>
+  <td colspan="2"><a href="https://github.com/Gomah" target="_blank" rel="nofollow">GitHub</a></td>
+</tr>
+
+    
+      <tr>
+  <td>sasmithjr</td>
+  <td colspan="2"><a href="https://github.com/sasmithjr" target="_blank" rel="nofollow">GitHub</a></td>
+</tr>
+
+    
+      <tr>
+  <td>kuwaitbinary</td>
+  <td colspan="2"><a href="https://github.com/kuwaitbinary" target="_blank" rel="nofollow">GitHub</a></td>
+</tr>
+
+    
+  </tbody>
+</table>
+
+        </div>

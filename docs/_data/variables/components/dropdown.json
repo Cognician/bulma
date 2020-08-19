@@ -1,8 +1,13 @@
 {
   "by_name": {
+    "$dropdown-menu-min-width": {
+      "name": "$dropdown-menu-min-width",
+      "value": "12rem",
+      "type": "size"
+    },
     "$dropdown-content-background-color": {
       "name": "$dropdown-content-background-color",
-      "value": "$white",
+      "value": "$scheme-main",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 100%)"
@@ -19,6 +24,16 @@
       "value": "4px",
       "type": "size"
     },
+    "$dropdown-content-padding-bottom": {
+      "name": "$dropdown-content-padding-bottom",
+      "value": "0.5rem",
+      "type": "size"
+    },
+    "$dropdown-content-padding-top": {
+      "name": "$dropdown-content-padding-top",
+      "value": "0.5rem",
+      "type": "size"
+    },
     "$dropdown-content-radius": {
       "name": "$dropdown-content-radius",
       "value": "$radius",
@@ -28,7 +43,7 @@
     },
     "$dropdown-content-shadow": {
       "name": "$dropdown-content-shadow",
-      "value": "0 2px 3px rgba($black, 0.1), 0 0 0 1px rgba($black, 0.1)",
+      "value": "0 0.5em 1em -0.125em rgba($scheme-invert, 0.1), 0 0px 0 1px rgba($scheme-invert, 0.02)",
       "type": "size"
     },
     "$dropdown-content-z": {
@@ -38,14 +53,14 @@
     },
     "$dropdown-item-color": {
       "name": "$dropdown-item-color",
-      "value": "$grey-dark",
+      "value": "$text",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 29%)"
     },
     "$dropdown-item-hover-color": {
       "name": "$dropdown-item-hover-color",
-      "value": "$black",
+      "value": "$scheme-invert",
       "type": "variable",
       "computed_type": "color",
       "computed_value": "hsl(0, 0%, 4%)"
@@ -73,16 +88,19 @@
     },
     "$dropdown-divider-background-color": {
       "name": "$dropdown-divider-background-color",
-      "value": "$border",
+      "value": "$border-light",
       "type": "variable",
       "computed_type": "color",
-      "computed_value": "hsl(0, 0%, 86%)"
+      "computed_value": "hsl(0, 0%, 93%)"
     }
   },
   "list": [
+    "$dropdown-menu-min-width",
     "$dropdown-content-background-color",
     "$dropdown-content-arrow",
     "$dropdown-content-offset",
+    "$dropdown-content-padding-bottom",
+    "$dropdown-content-padding-top",
     "$dropdown-content-radius",
     "$dropdown-content-shadow",
     "$dropdown-content-z",

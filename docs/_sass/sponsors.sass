@@ -8,21 +8,51 @@
     margin-right: 3rem
     width: 150px
 
+.bd-partnrs-list
+  margin: -3rem 0 3rem
+
+$bd-partner-width: 12rem
+
 .bd-partner-sponsors
   align-items: center
   display: flex
   flex-wrap: wrap
   justify-content: space-between
+  justify-content: space-around
+  justify-content: center
+  margin: 0 auto
+  max-width: (8 * $bd-partner-width)
 
 .bd-partner-sponsor
-  align-items: center
+  align-items: stretch
   display: flex
+  flex-direction: column
   justify-content: center
-  margin-right: 1rem
-  min-height: $carbon-height + $carbon-poweredby-height
+  margin: 0.25rem 1rem
+  // min-height: $carbon-height + $carbon-poweredby-height
+  min-height: 80px
+  text-align: center
+  &.is-text
+    color: $text-light
+    // font-size: 0.875em
+    line-height: 1.25
+    // min-height: 0
+    .bd-sponsor-item
+      display: inline
+    .bd-sponsor-item:before
+      display: none
 
-.bd-partners
-  background-color: $white-bis
+.bd-sponsor-item
+  @extend %link-before-background
+  @extend %center
+  flex-grow: 1
+  position: relative
+  strong,
+  img
+    position: relative
+
+.bd-partnrs
+  background-color: $scheme-main-bis
   #carbonads
     .carbon-text
       padding-bottom: 0
@@ -30,15 +60,49 @@
       display: none
 
 .bd-partner-title
-  color: $grey-light
+  color: $border-hover
   font-size: 0.875rem
   margin-bottom: 1rem
 
-$bd-partners-3: 1040px
-$bd-partners-4: 1130px
+.bd-minis
+  margin-top: 1rem
+  text-align: center
+
+.bd-minis-title
+  @extend .bd-partner-title
+  @extend %center
+
+.bd-minis-link
+  @extend %center
+  color: $text-light
+  .icon
+    margin-right: 0.25em
+  strong
+    color: $text-light
+    margin-left: 0.25em
+
+.bd-minis-list
+  align-items: center
+  display: flex
+  justify-content: space-between
+  margin: -1rem
+
+.bd-mini
+  @extend %center
+  box-shadow: 0 5px 10px rgba(black, 0.1)
+  margin: 1rem
+  img
+    display: block
+
+$bd-partnrs-3: 1040px
+$bd-partnrs-4: 1130px
+
++mobile
+  .bd-minis-list
+    flex-direction: column
 
 +tablet
-  .bd-partners-list
+  .bd-partnrs-list
     align-items: flex-start
     display: flex
     margin-left: auto
@@ -52,9 +116,15 @@ $bd-partners-4: 1130px
       flex-shrink: 0
       margin-left: 1rem
       width: $carbon-width
+  .bd-partner-sponsor
+    width: $bd-partner-width
 
 +widescreen
+  .bd-partnrs
+    .container
+      max-width: 1536px
   .bd-partner
     &.bd-is-carbon
       margin-left: 3rem
-
+  .bd-partner-sponsors
+    min-height: $carbon-height + $carbon-poweredby-height
