@@ -35,7 +35,7 @@
   },
   "scripts": {
     "build": "npm run build-sass && npm run build-autoprefix && npm run build-cleancss",
-    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma.css css/bulma.css",
+    "build-autoprefix": "postcss --use autoprefixer --map false --output css/bulma-cognician.css css/bulma-cognician.css",
     "build-cleancss": "cleancss -o css/bulma-cognician.min.css css/bulma-cognician.css",
     "build-sass": "node-sass --output-style expanded --source-map true bulma.sass css/bulma-cognician.css",
     "clean": "rimraf css",
